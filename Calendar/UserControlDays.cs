@@ -44,7 +44,7 @@ namespace Calendar
         private void displayevent()
         {
             var configuration = new ConfigurationBuilder()
-               .AddJsonFile("E:\\D\\Proiecte\\C#\\Calendar\\Calendar\\appsettings.json")
+               .AddJsonFile("appsettings.json")
                .Build(); ;
             PostgreSQLContext context = new PostgreSQLContext(configuration);
 
